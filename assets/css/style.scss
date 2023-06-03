@@ -826,9 +826,7 @@
           max-height: 1103px;
           .section_ten_item {
             display: grid;
-            grid-template-areas: 
-            "last" ,
-            "first";
+            grid-template-areas: "last", "first";
             flex-direction: column;
             .section_ten_item_child {
               &:first-of-type {
@@ -908,9 +906,7 @@
           max-height: 1103px;
           .section_ten_item {
             display: grid;
-            grid-template-areas: 
-            "last" ,
-            "first";
+            grid-template-areas: "last", "first";
             flex-direction: column;
             .section_ten_item_child {
               &:first-of-type {
@@ -990,9 +986,7 @@
           max-height: 1003px;
           .section_ten_item {
             display: grid;
-            grid-template-areas: 
-            "last" ,
-            "first";
+            grid-template-areas: "last", "first";
             flex-direction: column;
             .section_ten_item_child {
               &:first-of-type {
@@ -1072,9 +1066,7 @@
           max-height: 853px;
           .section_ten_item {
             display: grid;
-            grid-template-areas: 
-            "last" ,
-            "first";
+            grid-template-areas: "last", "first";
             flex-direction: column;
             .section_ten_item_child {
               &:first-of-type {
@@ -1357,7 +1349,7 @@
           }
         }
         @media screen and (max-width: 1116px) {
-          h2{
+          h2 {
             padding-top: 100px;
           }
           .section_eleven_item {
@@ -4298,357 +4290,357 @@
             }
           }
         }
-        @media screen and (max-width:1929px){
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 277px;
+        @media screen and (max-width: 1929px) {
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 277px;
             }
           }
         }
-        @media screen and (max-width:1805px){
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 177px;
+        @media screen and (max-width: 1805px) {
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 177px;
             }
           }
         }
-        @media screen and (max-width:1705px){
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 177px;
-            .section_fourteen_item_main_carousel{
-              width: 903px;
-              height: 600px;
-            }
-            }
-          }
-        }
-        @media screen and (max-width:1631px){
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 177px;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 468px;
-                height: 264px;
+        @media screen and (max-width: 1705px) {
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 177px;
+              .section_fourteen_item_main_carousel {
+                width: 903px;
+                height: 600px;
               }
             }
-            .section_fourteen_item_main_carousel{
-              width: 903px;
-              height: 620px;
-            }
-            }
           }
         }
-        @media screen and (max-width:1563px){
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 177px;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 468px;
-                height: 264px;
+        @media screen and (max-width: 1631px) {
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 177px;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 468px;
+                  height: 264px;
+                }
+              }
+              .section_fourteen_item_main_carousel {
+                width: 903px;
+                height: 620px;
               }
             }
-            .section_fourteen_item_main_carousel{
-              width: 803px;
-              height: 570px;
-            }
-            }
           }
         }
-        @media screen and (max-width:1493px){
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 177px;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 408px;
-                height: 264px;
+        @media screen and (max-width: 1563px) {
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 177px;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 468px;
+                  height: 264px;
+                }
+              }
+              .section_fourteen_item_main_carousel {
+                width: 803px;
+                height: 570px;
               }
             }
-            .section_fourteen_item_main_carousel{
-              width: 803px;
-              height: 570px;
-            }
+          }
+        }
+        @media screen and (max-width: 1493px) {
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 177px;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 408px;
+                  height: 264px;
+                }
+              }
+              .section_fourteen_item_main_carousel {
+                width: 803px;
+                height: 570px;
+              }
             }
           }
         }
-        @media screen and (max-width:1435px){
-          &::before{
+        @media screen and (max-width: 1435px) {
+          &::before {
             display: none;
           }
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 177px;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 408px;
-                height: 264px;
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 177px;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 408px;
+                  height: 264px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              width: 703px;
-              height: 500px;
-            }
+              .section_fourteen_item_main_carousel {
+                width: 703px;
+                height: 500px;
+              }
             }
           }
         }
-        @media screen and (max-width:1335px){
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 177px;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 408px;
-                height: 264px;
+        @media screen and (max-width: 1335px) {
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 177px;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 408px;
+                  height: 264px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              width: 603px;
-              height: 430px;
-            }
+              .section_fourteen_item_main_carousel {
+                width: 603px;
+                height: 430px;
+              }
             }
           }
         }
-        @media screen and (max-width:1239px){
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 127px;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 358px;
-                height: 214px;
+        @media screen and (max-width: 1239px) {
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 127px;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 358px;
+                  height: 214px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              width: 603px;
-              height: 430px;
-            }
+              .section_fourteen_item_main_carousel {
+                width: 603px;
+                height: 430px;
+              }
             }
           }
         }
-        @media screen and (max-width:1141px){
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 127px;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 358px;
-                height: 214px;
+        @media screen and (max-width: 1141px) {
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 127px;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 358px;
+                  height: 214px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              width: 503px;
-              height: 360px;
-            }
+              .section_fourteen_item_main_carousel {
+                width: 503px;
+                height: 360px;
+              }
             }
           }
         }
-        @media screen and (max-width:1042px){
-          .section_fourteen_item{
-            .section_fourteen_item_main{
-            margin-left: 127px;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 308px;
-                height: 184px;
+        @media screen and (max-width: 1042px) {
+          .section_fourteen_item {
+            .section_fourteen_item_main {
+              margin-left: 127px;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 308px;
+                  height: 184px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              width: 503px;
-              height: 360px;
-            }
+              .section_fourteen_item_main_carousel {
+                width: 503px;
+                height: 360px;
+              }
             }
           }
         }
-        @media screen and (max-width:990px){
-          h2{
+        @media screen and (max-width: 990px) {
+          h2 {
             font-size: 45px;
-          line-height: 55px;
+            line-height: 55px;
           }
-          .section_fourteen_item{
-            .section_fourteen_item_main{
+          .section_fourteen_item {
+            .section_fourteen_item_main {
               flex-direction: column;
-            margin-left: 0px;
-            justify-content: center;
-            align-items: center;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 408px;
-                height: 284px;
+              margin-left: 0px;
+              justify-content: center;
+              align-items: center;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 408px;
+                  height: 284px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              width: 703px;
-              height: 500px;
-            }
+              .section_fourteen_item_main_carousel {
+                width: 703px;
+                height: 500px;
+              }
             }
           }
         }
-        @media screen and (max-width:780px){
-          &::after{
+        @media screen and (max-width: 780px) {
+          &::after {
             display: none;
           }
-          h2{
+          h2 {
             font-size: 40px;
-          line-height: 50px;
+            line-height: 50px;
           }
-          .section_fourteen_item{
-            .section_fourteen_item_main{
+          .section_fourteen_item {
+            .section_fourteen_item_main {
               flex-direction: column;
-            margin-left: 0px;
-            justify-content: center;
-            align-items: center;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 408px;
-                height: 284px;
+              margin-left: 0px;
+              justify-content: center;
+              align-items: center;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 408px;
+                  height: 284px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              width: 603px;
-              height: 430px;
-            }
+              .section_fourteen_item_main_carousel {
+                width: 603px;
+                height: 430px;
+              }
             }
           }
         }
-        @media screen and (max-width:681px){
-          h2{
+        @media screen and (max-width: 681px) {
+          h2 {
             font-size: 35px;
-          line-height: 45px;
+            line-height: 45px;
           }
-          .section_fourteen_item{
-            .section_fourteen_item_main{
+          .section_fourteen_item {
+            .section_fourteen_item_main {
               flex-direction: column;
-            margin-left: 0px;
-            justify-content: center;
-            align-items: center;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 358px;
-                height: 254px;
+              margin-left: 0px;
+              justify-content: center;
+              align-items: center;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 358px;
+                  height: 254px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              width: 503px;
-              height: 360px;
-            }
+              .section_fourteen_item_main_carousel {
+                width: 503px;
+                height: 360px;
+              }
             }
           }
         }
-        @media screen and (max-width:602px){
-          h2{
+        @media screen and (max-width: 602px) {
+          h2 {
             font-size: 25px;
-          line-height: 30px;
+            line-height: 30px;
           }
-          .section_fourteen_item{
-            .section_fourteen_item_main{
+          .section_fourteen_item {
+            .section_fourteen_item_main {
               flex-direction: column;
-            margin-left: 0px;
-            justify-content: center;
-            align-items: center;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 358px;
-                height: 254px;
+              margin-left: 0px;
+              justify-content: center;
+              align-items: center;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 358px;
+                  height: 254px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              width: 503px;
-              height: 360px;
-            }
+              .section_fourteen_item_main_carousel {
+                width: 503px;
+                height: 360px;
+              }
             }
           }
         }
-        @media screen and (max-width:523px){
-          h2{
+        @media screen and (max-width: 523px) {
+          h2 {
             font-size: 25px;
-          line-height: 30px;
+            line-height: 30px;
           }
-          .section_fourteen_item{
-            .section_fourteen_item_main{
+          .section_fourteen_item {
+            .section_fourteen_item_main {
               flex-direction: column;
-            margin-left: 0px;
-            justify-content: center;
-            align-items: center;
-            .section_fourteen_item_main_video{
-              iframe{
-                width: 308px;
-                height: 204px;
+              margin-left: 0px;
+              justify-content: center;
+              align-items: center;
+              .section_fourteen_item_main_video {
+                iframe {
+                  width: 308px;
+                  height: 204px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              margin-top: 46px;
-              width: 403px;
-              height: 290px;
-            }
+              .section_fourteen_item_main_carousel {
+                margin-top: 46px;
+                width: 403px;
+                height: 290px;
+              }
             }
           }
         }
-        @media screen and (max-width:418px){
+        @media screen and (max-width: 418px) {
           max-height: 500px;
-          h2{
+          h2 {
             font-size: 20px;
-          line-height: 25px;
+            line-height: 25px;
           }
-          .section_fourteen_item{
-            .section_fourteen_item_button{
-              .section_fourteen_item_button_child{
+          .section_fourteen_item {
+            .section_fourteen_item_button {
+              .section_fourteen_item_button_child {
                 font-size: 10px;
-              line-height: 12px;
+                line-height: 12px;
               }
             }
-            .section_fourteen_item_main{
+            .section_fourteen_item_main {
               flex-direction: column;
-            margin-left: 0px;
-            justify-content: center;
-            align-items: center;
-            .section_fourteen_item_main_video{
-              margin-top: 60px;
-              iframe{
-                width: 258px;
-                height: 154px;
+              margin-left: 0px;
+              justify-content: center;
+              align-items: center;
+              .section_fourteen_item_main_video {
+                margin-top: 60px;
+                iframe {
+                  width: 258px;
+                  height: 154px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              margin-top: 26px;
-              width: 303px;
-              height: 220px;
-            }
+              .section_fourteen_item_main_carousel {
+                margin-top: 26px;
+                width: 303px;
+                height: 220px;
+              }
             }
           }
         }
-        @media screen and (max-width:358px){
+        @media screen and (max-width: 358px) {
           max-height: 500px;
-          h2{
+          h2 {
             font-size: 15px;
-          line-height: 25px;
+            line-height: 25px;
           }
-          .section_fourteen_item{
-            .section_fourteen_item_button{
-              .section_fourteen_item_button_child{
+          .section_fourteen_item {
+            .section_fourteen_item_button {
+              .section_fourteen_item_button_child {
                 font-size: 10px;
-              line-height: 12px;
+                line-height: 12px;
               }
             }
-            .section_fourteen_item_main{
+            .section_fourteen_item_main {
               flex-direction: column;
-            margin-left: 0px;
-            justify-content: center;
-            align-items: center;
-            .section_fourteen_item_main_video{
-              margin-top: 60px;
-              iframe{
-                width: 258px;
-                height: 154px;
+              margin-left: 0px;
+              justify-content: center;
+              align-items: center;
+              .section_fourteen_item_main_video {
+                margin-top: 60px;
+                iframe {
+                  width: 258px;
+                  height: 154px;
+                }
               }
-            }
-            .section_fourteen_item_main_carousel{
-              margin-top: 26px;
-              width: 303px;
-              height: 220px;
-            }
+              .section_fourteen_item_main_carousel {
+                margin-top: 26px;
+                width: 303px;
+                height: 220px;
+              }
             }
           }
         }
@@ -4837,39 +4829,39 @@
             // }
           }
         }
-        @media screen and (max-width:1897px){
-          .section_fifteen_item{
-            .section_fifteen_item_child{
+        @media screen and (max-width: 1897px) {
+          .section_fifteen_item {
+            .section_fifteen_item_child {
               margin-left: 323px;
             }
           }
         }
-        @media screen and (max-width:1726px){
-          .section_fifteen_item{
-            .section_fifteen_item_child{
+        @media screen and (max-width: 1726px) {
+          .section_fifteen_item {
+            .section_fifteen_item_child {
               margin-left: 223px;
             }
           }
         }
-        @media screen and (max-width:927px){
+        @media screen and (max-width: 927px) {
           background-position: right right;
-          .section_fifteen_item{
-            .section_fifteen_item_child{
+          .section_fifteen_item {
+            .section_fifteen_item_child {
               margin-left: 223px;
             }
           }
         }
-        @media screen and (max-width:851px){
+        @media screen and (max-width: 851px) {
           background-position: right right;
-          .section_fifteen_item{
-            .section_fifteen_item_child{
+          .section_fifteen_item {
+            .section_fifteen_item_child {
               margin-left: 0px;
               display: flex;
               flex-direction: column;
               justify-content: center;
               align-items: center;
               margin: auto;
-              &::after{
+              &::after {
                 display: none;
               }
             }
@@ -5126,7 +5118,7 @@
                   flex-direction: column;
                   justify-content: center;
                   align-items: center;
-                  input{
+                  input {
                     font-size: 22px;
                     line-height: 24px;
                   }
