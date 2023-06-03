@@ -4115,6 +4115,40 @@
 * .container main .section_fifteen .section_fifteen_item .section_fifteen_item_child .section_fifteen_item_child_ok p span {
   color: #e9bc99;
 }
+@media screen and (max-width: 1897px) {
+  * .container main .section_fifteen .section_fifteen_item .section_fifteen_item_child {
+    margin-left: 323px;
+  }
+}
+@media screen and (max-width: 1726px) {
+  * .container main .section_fifteen .section_fifteen_item .section_fifteen_item_child {
+    margin-left: 223px;
+  }
+}
+@media screen and (max-width: 927px) {
+  * .container main .section_fifteen {
+    background-position: right right;
+  }
+  * .container main .section_fifteen .section_fifteen_item .section_fifteen_item_child {
+    margin-left: 223px;
+  }
+}
+@media screen and (max-width: 851px) {
+  * .container main .section_fifteen {
+    background-position: right right;
+  }
+  * .container main .section_fifteen .section_fifteen_item .section_fifteen_item_child {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  * .container main .section_fifteen .section_fifteen_item .section_fifteen_item_child::after {
+    display: none;
+  }
+}
 * .container footer {
   width: 100%;
   display: flex;
