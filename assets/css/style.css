@@ -1193,6 +1193,9 @@
   }
 }
 @media screen and (max-width: 1116px) {
+  * .container main .section_eleven h2 {
+    padding-top: 100px;
+  }
   * .container main .section_eleven .section_eleven_item .section_eleven_item_child:first-of-type {
     width: 700px;
     height: 490px;
@@ -1418,6 +1421,7 @@
   * .container main .section_eleven h2 {
     font-size: 20px;
     line-height: 30px;
+    padding-top: 50px;
   }
   * .container main .section_eleven .section_eleven_item {
     flex-direction: column;
@@ -4282,6 +4286,7 @@
   * .container footer .footer_item:nth-of-type(1) .footer_item_child:first-of-type {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: auto;
   }
   * .container footer .footer_item:nth-of-type(1) .footer_item_child:last-of-type {
@@ -4291,6 +4296,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   * .container footer .footer_item:nth-of-type(2) {
     display: flex;
@@ -4311,6 +4317,7 @@
   * .container footer .footer_item:nth-of-type(1) .footer_item_child:first-of-type {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: auto;
   }
   * .container footer .footer_item:nth-of-type(1) .footer_item_child:last-of-type {
@@ -4320,6 +4327,45 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  * .container footer .footer_item:nth-of-type(2) ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  * .container footer .footer_item:nth-of-type(3) ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 369px) {
+  * .container footer {
+    gap: 80px;
+    justify-content: flex-start;
+  }
+  * .container footer .footer_item:nth-of-type(1) .footer_item_child:first-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  * .container footer .footer_item:nth-of-type(1) .footer_item_child:last-of-type {
+    flex-wrap: wrap;
+  }
+  * .container footer .footer_item:nth-of-type(1) .footer_item_child:last-of-type .number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * .container footer .footer_item:nth-of-type(1) .footer_item_child:last-of-type .number input {
+    font-size: 22px;
+    line-height: 24px;
   }
   * .container footer .footer_item:nth-of-type(2) ul {
     display: flex;

@@ -1359,6 +1359,9 @@
           }
         }
         @media screen and (max-width: 1116px) {
+          h2{
+            padding-top: 100px;
+          }
           .section_eleven_item {
             .section_eleven_item_child {
               &:first-of-type {
@@ -1636,6 +1639,7 @@
           h2 {
             font-size: 20px;
             line-height: 30px;
+            padding-top: 50px;
           }
           .section_eleven_item {
             flex-direction: column;
@@ -5036,7 +5040,7 @@
               &:first-of-type {
                 display: flex;
                 justify-content: center;
-                // align-items: center;
+                align-items: center;
                 margin: auto;
               }
               &:last-of-type {
@@ -5045,7 +5049,7 @@
                   display: flex;
                   flex-direction: column;
                   justify-content: center;
-                  // align-items: center;
+                  align-items: center;
                 }
               }
             }
@@ -5071,7 +5075,7 @@
               &:first-of-type {
                 display: flex;
                 justify-content: center;
-                // align-items: center;
+                align-items: center;
                 margin: auto;
               }
               &:last-of-type {
@@ -5081,6 +5085,53 @@
                   flex-direction: column;
                   justify-content: center;
                   // align-items: center;
+                }
+              }
+            }
+          }
+          &:nth-of-type(2) {
+            ul {
+              display: flex;
+              flex-direction: column;
+              margin: auto;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+          &:nth-of-type(3) {
+            ul {
+              display: flex;
+              flex-direction: column;
+              margin: auto;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 369px) {
+        gap: 80px;
+        justify-content: flex-start;
+        .footer_item {
+          &:nth-of-type(1) {
+            .footer_item_child {
+              &:first-of-type {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+              }
+              &:last-of-type {
+                flex-wrap: wrap;
+                .number {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  input{
+                    font-size: 22px;
+                    line-height: 24px;
+                  }
                 }
               }
             }
