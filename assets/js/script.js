@@ -14,13 +14,13 @@ const swiper = new Swiper(".swiper", {
 });
 
 
+function clickFunctions() {
+  document.querySelector(".none").style.display = "block";
+  document.querySelector(".section_fourteen_item").style.display = "none";
+}
 
 function clickFunctionss() {
-  document.querySelector(".section_fourteen_itemm").style.display = "none";
+  document.querySelector(".none").style.display = "none";
   document.querySelector(".section_fourteen_item").style.display = "block";
 }
 
-function clickFunctions() {
-  document.querySelector(".section_fourteen_itemm").style.display = "block";
-  document.querySelector(".section_fourteen_item").style.display = "none";
-}
